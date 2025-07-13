@@ -4,6 +4,7 @@ type Props = {
   placeholder?: string;
   label: string;
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  type?: React.HTMLInputTypeAttribute;
 };
 
 export const Input = ({
@@ -12,6 +13,7 @@ export const Input = ({
   placeholder,
   label,
   handleChange,
+  type = "text"
 }: Props) => {
   return (
     <div className="flex flex-col gap-2 w-full">
@@ -19,7 +21,7 @@ export const Input = ({
         {label}
       </label>
       <input
-        type="text"
+        type={type}
         id={name}
         name={name}
         placeholder={placeholder}

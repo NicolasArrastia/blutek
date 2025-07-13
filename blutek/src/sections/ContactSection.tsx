@@ -56,6 +56,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     }
   } catch (error) {
     toast.dismiss(loadingToastId);
+    console.error(error)
     toast.error("No se pudo enviar el mensaje.");
   }
 };
@@ -84,6 +85,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             placeholder="tu@email.com"
             value={form.email}
             handleChange={handleChange}
+            type="email"
           />
         </div>
         <Input

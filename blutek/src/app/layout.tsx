@@ -14,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Blutek",
-  description: "Un equipo especializado en soluciones digitales profesionales",
+  title: "Blutek - Soluciones Digitales Profesionales para Empresas y Emprendedores",
+  description: "Blutek ofrece desarrollo web, diseño UX/UI, marketing digital y consultoría tecnológica para impulsar tu negocio con soluciones digitales innovadoras y a medida.",
 };
+
 
 export default function RootLayout({
   children,
