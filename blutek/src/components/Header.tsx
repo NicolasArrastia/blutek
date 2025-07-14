@@ -43,7 +43,7 @@ const Header = () => {
           </a>
         ))}
       </nav>
-      <Button>Contáctanos</Button>
+      <Button><a href="#contact">Contáctanos</a></Button>
     </header>
   );
 };

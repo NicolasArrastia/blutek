@@ -33,7 +33,7 @@ const Footer = () => {
         Blutek
       </div>
 
-      <span className="text-neutral-400">
+      <span className="text-neutral-400 text-center">
         Desarrollamos experiencias web que marcan la diferencia.
       </span>
       <span className="text-neutral-400">Desde Argentina para el mundo</span>
@@ -57,7 +57,7 @@ const Footer = () => {
 
       <div className="h-px bg-neutral-800 w-[80%] my-6" />
 
-      <span className="text-neutral-500">
+      <span className="text-neutral-500 text-center">
         © {new Date().getFullYear()} Blutek. Todos los derechos reservados.
       </span>
     </footer>

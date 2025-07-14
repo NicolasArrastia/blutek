@@ -45,8 +45,6 @@ type Props = {
 export const SVGIcon = ({ src, size = 24, color, className }: Props) => {
   const dimension = typeof size === "number" ? `${size}px` : size;
 
-  console.log("src");
-  console.log(src);
   return (
     <div
       style={{
