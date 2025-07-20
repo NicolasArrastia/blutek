@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bluttek.com/
+
+# Sitemaps
+Sitemap: https://bluttek.com/sitemap.xml
