@@ -15,7 +15,7 @@ const HeroSection = () => {
           >
             <Code className="w-5 h-5 text-blue-600" />
             <span className="text-sm font-medium text-blue-700">
-              Somos Blutek
+              Somos Bluttek
             </span>
           </motion.div>
 

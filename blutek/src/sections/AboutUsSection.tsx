@@ -27,7 +27,7 @@ const AboutUsSection = () => {
   return (
     <Section title={["Sobre", "Nosotros"]} id="about-us">
       <span className="text-neutral-900 font-semibold text-2xl text-center mb-5">
-        &quot;Blutek es un equipo frontend que cumple. Diseñamos con presición y
+        &quot;Bluttek es un equipo de desarrollo que cumple. Diseñamos con presición y
         entregamos en tiempo y forma.&quot;
       </span>
       <div className="h-px w-20 my-5 m-auto bg-neutral-400"></div>

@@ -34,7 +34,7 @@ const Header = () => {
         className="flex items-center gap-2 text-neutral-900 font-semibold text-2xl"
       >
         <SVGIcon src={BlutekLogo.src} className="!bg-neutral-950" size={30} />
-        Blutek
+        Bluttek
       </a>
       <nav className="hidden md:flex gap-5 text-neutral-600 text-lg m-auto">
         {NAVBAR.map((item) => (

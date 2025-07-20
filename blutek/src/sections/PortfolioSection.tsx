@@ -42,7 +42,7 @@ const ProjectCard = ({
 
 const PROJECTS: ProjectType[] = [
   {
-    title: "Anto Plus",
+    title: "Anato Plus",
     description:
       "Web desarrollada para una plataforma de aprendizaje en linea-",
     tags: ["React", "JavaScript", "Next.js", "Nest.js", "PostgreSQL"],

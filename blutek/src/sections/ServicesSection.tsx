@@ -60,7 +60,7 @@ const ServicesSection = () => {
         {SERVICES.map((service) => (
           <div
             key={service.title}
-            className="group flex flex-col items-center gap-1 border border-neutral-200 bg-neutral-50 p-4 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
+            className="group flex flex-col items-center text-center gap-1 border border-neutral-200 bg-neutral-50 p-4 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
           >
             <div className="bg-slate-200 p-4 rounded-md w-fit group-hover:bg-blue-900 transition">
               <SVGIcon

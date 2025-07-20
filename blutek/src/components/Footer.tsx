@@ -18,7 +18,7 @@ const FOOTER_SECTIONS: { title: string; info: string[] }[] = [
   {
     title: "Contacto",
     info: [
-      "nicolasarrastia@gmail.com",
+      "hello@bluttek.com",
       "Buenos Aires, Argentina",
       "Disponibilidad Global",
     ],
@@ -30,7 +30,7 @@ const Footer = () => {
     <footer className="bg-black text-white flex flex-col items-center justify-center py-8 pb-12">
       <div className="flex gap-1 font-semibold justify-center items-center text-2xl">
         <SVGIcon src={BlutekLogo} />
-        Blutek
+        Bluttek
       </div>
 
       <span className="text-neutral-400 text-center">
@@ -58,7 +58,7 @@ const Footer = () => {
       <div className="h-px bg-neutral-800 w-[80%] my-6" />
 
       <span className="text-neutral-500 text-center">
-        © {new Date().getFullYear()} Blutek. Todos los derechos reservados.
+        © {new Date().getFullYear()} Bluttek. Todos los derechos reservados.
       </span>
     </footer>
   );
