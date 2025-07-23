@@ -29,7 +29,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white flex flex-col items-center justify-center py-8 pb-12">
       <div className="flex gap-1 font-semibold justify-center items-center text-2xl">
-        <SVGIcon src={BlutekLogo} />
+        <SVGIcon src={BlutekLogo.src} />
         Bluttek
       </div>
 
