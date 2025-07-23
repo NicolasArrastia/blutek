@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { motion } from "framer-motion";
 import { Code, Monitor, Zap } from "lucide-react";
 
@@ -26,7 +26,8 @@ const HeroSection = () => {
             className="space-y-4"
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
-              Creamos tu web <span className="text-blue-900">limpia</span> y{" "}
+              En Bluttek creamos tu web{" "}
+              <span className="text-blue-900">limpia</span> y{" "}
               <span className="text-blue-900">funcional</span>
             </h1>
 
