@@ -1,3 +1,3 @@
 export const BreakLine = () => {
-  return <div>BreakLine</div>;
+  return <hr className="border-neutral-200"></hr>;
 };
