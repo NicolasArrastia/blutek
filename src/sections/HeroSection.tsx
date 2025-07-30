@@ -5,9 +5,9 @@ import { Code, Monitor, Zap } from "lucide-react";
 const HeroSection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white flex items-center justify-center">
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-16 pt-24 md:pt-16">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -17,7 +17,7 @@ const HeroSection = () => {
             <span className="text-sm font-medium text-blue-700">
               Somos Bluttek
             </span>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
